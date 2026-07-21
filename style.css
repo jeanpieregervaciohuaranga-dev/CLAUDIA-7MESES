@@ -1,0 +1,7 @@
+body{margin:0;background:#090909;color:#fff;font-family:Arial;text-align:center}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;
+background:linear-gradient(135deg,#000,#1b3b2f,#451b38)}
+button{padding:15px 30px;border:none;border-radius:30px;background:#ff4fa3;color:#fff;font-size:18px;cursor:pointer}
+.oculto{display:none;padding:30px}
+.galeria{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.galeria img{width:100%;border-radius:12px;border:2px solid #ff4fa3}
